@@ -4,7 +4,7 @@ main(int a, int b){
 	int z;
 	int d = x + a;
 	scanf("%d", &y);
-	int x = y + a;
+	x = y + a;
 	y = z + a;
 
 }
