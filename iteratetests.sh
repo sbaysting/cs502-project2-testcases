@@ -7,7 +7,7 @@ for f in *.c; do
     testnum=${testname:4}
     $CC $f
     DIFF=`diff t$testnum.txt output.txt`
-    if [ $DIFF != "" ]; then
+    if [[ $DIFF != "" ]]; then
         echo "Test $testnum failed:" >> report.txt
         echo $DIFF >> report.txt
     fi
