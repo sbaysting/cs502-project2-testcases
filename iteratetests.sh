@@ -7,7 +7,7 @@ for f in *.c; do
     testname="${f%.*}"
     testnum=${testname:4}
     $CC $f
-    DIFF=`diff t$testnum.txt output.txt`
+    DIFF=`diff t$testnum.txt ../output.txt`
     if [[ $DIFF != "" ]]; then
         echo "Test $testnum failed:" >> ../regression_report.txt
         echo $DIFF >> ../regression_report.txt
@@ -20,7 +20,7 @@ for f in *.c; do
     testname="${f%.*}"
     testnum=${testname:4}
     $CC $f
-    DIFF=`diff t$testnum.txt output.txt`
+    DIFF=`diff t$testnum.txt ../output.txt`
     if [[ $DIFF != "" ]]; then
         echo "Test $testnum failed:" >> ../project2_report.txt
         echo $DIFF >> ../project2_report.txt
