@@ -1,2 +1,0 @@
-main:x1,x2
-foo:case1,case2,case3,case4,case5,case6,test
