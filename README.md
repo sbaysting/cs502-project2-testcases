@@ -8,4 +8,4 @@ Any test cases which is not part of the project specification, should be added t
 
 To run all test cases at once, use the command:
 
-./iteratetests.sh path_to_cc1_binary
+./iteratetests.sh path_to_cc1_binary_relative_to_regression_tests_folder_or_absolute_path
