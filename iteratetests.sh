@@ -1,7 +1,6 @@
-rm report.txt
-
 CC=$1
 echo "Running regression tests"
+rm regression_report.txt
 cd "regression_tests"
 for f in *.c; do
     testname="${f%.*}"
@@ -14,7 +13,9 @@ for f in *.c; do
     fi
 done
 
+cd ..
 echo "Running project 2 tests"
+rm project2_report.txt
 cd "project2_tests"
 for f in *.c; do
     testname="${f%.*}"
