@@ -1,7 +1,18 @@
-void init(int *q, int *p) { if (*p<0) *q=1;}
-int foo(int a){
-int i=0, b;
-init(&i, &b);
-b=0;
-printf("%d", a+b+i);
+int a;
+int b;
+int c;
+
+void foo(int x){
+	if(x > 0){
+		a = x;
+		foo(x - 1);
+	}
+	b = x - 1;
+	c = b + x;
+	return;
+}
+
+void main(){
+	foo(10);
+	printf("a = %d, b = %d, c = %d\n", a, b, c);
 }
