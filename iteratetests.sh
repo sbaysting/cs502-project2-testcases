@@ -27,3 +27,8 @@ for f in *.c; do
         echo $DIFF >> ../project2_report.txt
     fi
 done
+rm output.txt
+rm project2_tests/output.txt
+rm regression_tests/output.txt
+rm project2_tests/*.s
+rm regression_tests/*.s
