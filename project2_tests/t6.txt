@@ -1,2 +1,2 @@
-foo:b
 main:a
+foo:b
