@@ -1,0 +1,3 @@
+main:r1
+foo1:k
+foo2:x3
