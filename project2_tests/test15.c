@@ -1,7 +1,7 @@
 // This is a nested test case where a variable sent by caller is used in callee of callee
 // And another variable is defined in callee.
-void foo1(int x1);
-int foo2(int x2);
+void foo1(int* r1, int* r2);
+int foo2(int* x2);
 
 void foo1(int* r1, int* r2){
   int x,k;
