@@ -1,3 +1,0 @@
-main:r1,r3
-foo2:x3
-foo1:k
