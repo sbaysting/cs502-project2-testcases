@@ -19,3 +19,13 @@ For example, if this git repository is cloned in the same directoy as the instal
 ```sh
 ./iteratetests.sh ../../install/cc1
 ```
+
+Put an "ignore.txt" file in whichever test directory you want to ignore tests for. In that file, write the test numbers you don't want to run. One number on each line.
+
+Example ignore.txt:
+10
+13
+56
+101
+
+An example "ignore.txt" is contained in the `regression_tests` folder. Those test cases were not covered in project 1 and will not be covered in project 2.
