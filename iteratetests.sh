@@ -1,8 +1,20 @@
+# Check if argument was given at all
+if [ -z "$1" ]; then
+    echo "Please pass the location of the cc1 executable."
+    exit 1
+fi
+
 # Get the location of the cc1 executable
 CC=$1
 
 # Add folders to iterate through
 declare -a test_folders=("regression_tests" "project2_tests")
+
+# Check to make sure cc1 exists at the given path
+if [ ! -f $CC ]; then
+    echo "cc1 exeuctable does not exist at path ${CC}. Please choose a new location"
+    exit 1
+fi
 
 # Run tests
 for folder in "${test_folders[@]}"; do
