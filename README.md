@@ -17,7 +17,7 @@ To run all test cases at once, use the command:
 For example, if this git repository is cloned in the same directoy as the install folder, then the correct command would be:
 
 ```sh
-./iteratetests.sh $PWD/../../install/cc1
+./iteratetests.sh $PWD/../install/cc1
 ```
 
 Put an `ignore.txt` file in whichever test directory you want to ignore tests for. In that file, write the test numbers you don't want to run. One number on each line.
