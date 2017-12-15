@@ -1,0 +1,3 @@
+main:i
+leaf:k
+global:g4,g3,g2

@@ -1,0 +1,4 @@
+main:i,j
+foo:k
+leaf_ptr:q
+global:g4,g1

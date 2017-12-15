@@ -1,0 +1,4 @@
+main:i,j
+foo:k,p,q
+leaf:q
+global:g3,g1
