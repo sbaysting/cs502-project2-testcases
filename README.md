@@ -32,3 +32,4 @@ Example ignore.txt (numbers are tests NOT to be run):
 ```
 
 An example `ignore.txt` is contained in the `regression_tests` folder. Those test cases were not covered in project 1 and will not be covered in project 2.
+asdf
